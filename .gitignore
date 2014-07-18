@@ -1,0 +1,4 @@
+config/
+test/
+log/*
+changelog
