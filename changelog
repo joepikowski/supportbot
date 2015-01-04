@@ -1,0 +1,13 @@
+07/12/2014
+1. Added higher success criteria to prevent flickering monitor alerts ( Must succeed at least 3 times to resolve alert)
+2. Made Monitor success handler use inMonitor check method instead of redundant code
+3. Fix to Sailbot OnDuty syntax
+07/16/2014
+1. Fixed Setting Users with Non-Exact IRC Names
+2. Allowed multiple names/aliases per user
+7/18/2014
+1. Further refined monitor alerting (anti-flicker, anti-spam)
+9/19/2014
+1. Adjusted Alert Resolution Messaging
+1/4/2015
+1. Refactored WTFDocs to Use Google Drive API
