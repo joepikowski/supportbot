@@ -47,7 +47,7 @@ InputModel.prototype.containsWords = function(param,value){
 };
 
 InputModel.prototype.isDate = function(value){
-    return (this.containsWords("date",value) || moment(value,"M/DD","MM/DD","MM/DD/YY","MM/DD/YYYY")._pf.charsLeftOver == 0);
+    return (this.containsWords("date",value) || moment(value,["M/DD","MM/DD","MM/DD/YY","MM/DD/YYYY"])._pf.charsLeftOver == 0);
 };
 
 InputModel.prototype.parseNum = function(value){
