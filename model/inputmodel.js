@@ -8,7 +8,7 @@ function InputModel(){
     this.optionWords = ["next","only"];
     this.commandWords = ["pass","take","on","off"];
     this.statusWords = ["new","open","pending","closed","solved"];
-    this.dateWords = ["mon","tue","tues","wed","thur","thurs","fri","sat","sun","monday","tuesday","wednesday","thursday","friday","saturday","yesterday","today","tonight","tomorrow"];
+    this.dateWords = ["mon","tue","tues","wed","thur","thurs","fri","sat","sun","monday","tuesday","wednesday","thursday","friday","saturday","sunday","yesterday","today","tonight","tomorrow"];
     
     this.to = "";
     this.from = "";
